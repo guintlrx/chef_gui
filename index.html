@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Gui Alcântara</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-2">Chef Gui Alcântara</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao" aria-controls="menu-navegacao" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="menu-navegacao">
+                <ul class="navbar-nav ms-auto nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o Chef
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/IMG_5914 3.jpeg" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/IMG_3623.jpeg" alt="Taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/IMG_3656.jpeg" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        <section id="sobre-o-restaurante"></section>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/gui_chef.jpeg" class="d-block w-100 rounded" alt="Foto do espaço interno">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Quem é Chef Gui Alcântara?</h2>
+                            <p class="descricao">
+                                Sou chef de cozinha apaixonado pela culinária, nascido e criado em Brasília. Inicialmente, minha carreira começou como
+
+designer gráfico, mas minha paixão pela gastronomia me levou a seguir um novo caminho. Decidi estudar gastronomia e
+
+mergulhar de cabeça nesse mundo fascinante.
+
+Durante minha jornada tive a oportunidade de trabalhar em restaurantes de destaque nacional e internacional como o
+
+Restaurante Iz de Goiânia e o restaurante DOM do Chef Alex Atala onde aprimorei minhas habilidades e expandi meu
+
+conhecimento.
+
+Em Brasília chefiei dois projetos de grande porte: The Plane Experience e a Caffetteria (um projeto em parceria com a Starbucks). Agora em busca de trabalhar em projetos autorais onde eu possa imprimir minha marca e explorar mais a minha criatividade culinária.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas as ocasiões</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/evento1.png" alt="Evento 1" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Personal Chef
+                        </h3>
+                        <p>
+                            Comemore com estilo em jantares privados personalizados e desfrute de um menu feito exclusivamente para você e seus convidados. Saboreie experiências únicas dentro da sua própria casa.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/evento2.png" alt="Evento 2" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Eventos
+                        </h3>
+                        <p>
+                            Quer comemorar em grande estilo e fugindo do convencional? Montamos um coquetel volante e/ou outras opções para que seu evento seja um sucesso. Aniversários, noivados ou até um casual encontro de amigos merecem um menu especial.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/evento3.png" alt="Evento 3" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Consultoria
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, rerum ipsam nisi adipisci ducimus sapiente ab harum optio, mollitia in voluptates ipsa. Provident, voluptates officiis? Quaerat possimus perspiciatis voluptatum unde!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale Conosco</h2>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form.label fw-bold text-colored">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form.label fw-bold text-colored">Seu e-mail</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form.label fw-bold text-colored">Seu telefone (opcional)</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form.label fw-bold text-colored">Sua mensagem</label>
+                                    <textarea id="mensagem" class="form-control" rows="5"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-danger btn-lg">Enviar mensagem</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <h3 class="section-title fs-4">Nossos contatos</h3>
+                            <ul class="social-links">
+                                <li class="fs-2">
+                                    <a href="https://www.instagram.com/guilherme_alcantara/">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-2">
+                                    <a href="https://api.whatsapp.com/send?phone=5561999077040">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="lead">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                SCRLN 708, Bloco A - Brasília-DF
+                            </p>
+                            <p class="lead">
+                                <i class="bi bi-telephone-fill"></i>
+                                (61) 99907 7040
+                            </p>
+                            <p class="lead">
+                                <i class="bi bi-envelope-at-fill"></i>
+                                guilhermealcantara@me.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
